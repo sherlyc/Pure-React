@@ -1,0 +1,42 @@
+exports[`test renders 1`] = `
+<div
+  className="tweet">
+  <img
+    alt="avatar"
+    className="avatar"
+    src="https://www.gravatar.com/avatar/nothing" />
+  <div
+    className="content">
+    <span
+      className="name-with-handle">
+      <span
+        className="name">
+        Your Name
+      </span>
+      <span
+        className="handle">
+        @yourhandle
+      </span>
+    </span>
+    <span
+      className="time">
+      3h ago
+    </span>
+    <div
+      className="message">
+      This is less than 140 characters.
+    </div>
+    <div
+      className="buttons">
+      <i
+        className="fa fa-reply reply-button" />
+      <i
+        className="fa fa-retweet retweet-button" />
+      <i
+        className="fa fa-heart like-button" />
+      <i
+        className="fa fa-ellipsis-h more-options-button" />
+    </div>
+  </div>
+</div>
+`;
